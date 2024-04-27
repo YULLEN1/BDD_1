@@ -3,7 +3,7 @@ import lombok.Value;
 
 import java.util.Random;
 
-public class DataHelper {
+public class gitDataHelper {
     private DataHelper() {
     }
 
