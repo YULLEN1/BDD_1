@@ -32,7 +32,7 @@ public class MoneyTransferTest {
         var firstCardBalance = dashboardPage.getCardBalance(getFirstCardNumber().getCardNumber());
         var secondCardBalance = dashboardPage.getCardBalance(getSecondCardNumber().getCardNumber());
         var transferPage = dashboardPage.depositToFirstCard();
-        int amount = 1_000;
+        var amount =generateValidAmount(firstCardBalance);
         transferPage.transferMoney(amount, getSecondCardNumber());
         var expectedFirstCardBalanceAfter = firstCardBalance + amount;
         var expectedSecondCardBalanceAfter = secondCardBalance - amount;

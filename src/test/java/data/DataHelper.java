@@ -21,17 +21,16 @@ public class DataHelper {
 
         return new CardInfo("5559 0000 0000 0001");
     }
-
-    public static CardInfo getSecondCardNumber() {
-        return new CardInfo("5559 0000 0000 0002");
-    }
-
     public static int generateValidAmount(int balance) {
         return new Random().nextInt(Math.abs(balance)) + 1;
     }
 
     public static int generateInvalidAmount(int balance) {
         return Math.abs(balance) + new Random().nextInt(10000);
+    }
+
+    public static CardInfo getSecondCardNumber() {
+        return new CardInfo("5559 0000 0000 0002");
     }
 
     @Value
