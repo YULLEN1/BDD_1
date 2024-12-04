@@ -45,11 +45,13 @@
 
 После логина, который уже мы сделали на лекции, вы получите список карт:
 
-![](pic/cards.png)
+![cards](https://github.com/user-attachments/assets/e1dcaeeb-ebbc-4d2a-a5c6-9b8e5f551f70)
+
 
 Нажав на кнопку «Пополнить», вы перейдёте на страницу перевода средств:
 
-![](pic/transfer.png)
+![transfer](https://github.com/user-attachments/assets/bc52f3b9-328d-4d71-94aa-6e2b5708a529)
+
 
 При успешном переводе вы вернётесь назад на страницу со списком карт.
 
